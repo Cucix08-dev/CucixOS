@@ -74,7 +74,8 @@ body{
 
 #password.appearePassword:focus{
     width: 20vw !important;
-    padding: 2vw 3vw;
+    max-width: 245px;
+    padding: min(2vw,15px) min(3vw, 20px);
     border: 4px solid rgb(206, 206, 206);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
