@@ -3,12 +3,10 @@ function randomInt(max){
     return Math.floor(Math.random() * interval) + interval;
 }
 
-
-
 setTimeout(() => {
     const screen = document.getElementById("loading-screen");
     screen.classList.add("LOADED");
     setTimeout(() => {
-        window.location.href = "access-page.html";
+        window.location.href = "src/access/access-page.html";
     }, 100);
 }, randomInt(5000));

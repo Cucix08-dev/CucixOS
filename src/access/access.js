@@ -18,6 +18,6 @@ accountImg.addEventListener("click", (e) => {
 
 passwordContainer.addEventListener("keydown", (e) => {
     if (e.key === "Enter" && passwordContainer.value === "1234") {
-        window.location.href = "src/desktop.html";
+        window.location.href = "../desktop/desktop.html";
     }
 });

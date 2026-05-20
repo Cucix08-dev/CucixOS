@@ -10,4 +10,4 @@ const bg = [
     "bg-7.png"
 ]
 
-bgContainer.style.backgroundImage = `url(imgs/desktop-backgrounds/${bg[0]})`;
+bgContainer.style.backgroundImage = `url(../../imgs/desktop-backgrounds/${bg[0]})`;
