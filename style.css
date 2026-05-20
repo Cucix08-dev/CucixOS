@@ -18,6 +18,7 @@ body{
 
 #OS-icon{
     width: 40vw;
+    max-width: 600px;
     aspect-ratio: 1/1;
     background-image: url("imgs/icons/OS-icons/OS-icon-loading.png");
     background-repeat: no-repeat;
@@ -27,11 +28,12 @@ body{
 /* LOADING ANIMATION CIRCLE */
 #loading-animation{
     width: 8vw;
+    max-width: 125px;
     aspect-ratio: 1/1;
     position: relative;
     border-radius: 9999px;
     background-color: black;
-    margin-bottom: 40%;
+    margin-bottom: min(40%,314px);
 }
 
 @property --angle{
