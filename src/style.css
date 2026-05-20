@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#desktop{
+    width: 100vw;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#nav-apps{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 5dvh;
+    width: 100vw;
+    background-color: rgba(35, 35, 35, 0.949);
+}
