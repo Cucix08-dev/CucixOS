@@ -14,22 +14,16 @@ const datas = [
 
 let windows = new Map();
 
-const cols = 20;
+let cols = 10;
 
 const vw = window.innerWidth / 100;
 const vh = window.innerHeight / 100;
 
 const screenWidth = desktop.offsetWidth;
-let cellWidth = 0;
+let cellWidth = screenWidth * 0.1;
 
-
-if(screenWidth > 1000){
-    cellWidth = screenWidth * 0.05;
-}
-else if (screenWidth < 1000) {
-    cellWidth = screenWidth * 0.1;
-}
-else if (screenWidth < 800) {
+if (screenWidth < 800) {
+    cols = 5;
     cellWidth = screenWidth * 0.2;
 }
 

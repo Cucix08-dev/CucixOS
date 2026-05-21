@@ -137,10 +137,6 @@ iframe.window{
 }
 
 @media (max-width: 1000px){
-    #desktop-grid-apps{
-        grid-template-columns: repeat(10,1fr);
-    }
-    
     .square{
         width: 10vw;
     }
