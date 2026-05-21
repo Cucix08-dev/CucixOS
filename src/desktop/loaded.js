@@ -34,12 +34,7 @@ for (let i = 0; i < totalCells; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
     desktopGridApps.appendChild(square);
-    try{
-        square.innerHTML = (datas[i]);
-    }
-    catch(e){
-        square.innerHTML = '';
-    }
+    square.innerHTML = (i<datas.length)? (datas[i]):'';
 }
 
 const portfolio = document.getElementById("portfolio");
